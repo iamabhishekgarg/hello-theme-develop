@@ -33,6 +33,6 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 
 <?php
     if ( hello_elementor_display_header_footer() ) {
- get_template_part( '/inc/header' );
+ get_template_part( 'inc/header' );
     }
 ?>

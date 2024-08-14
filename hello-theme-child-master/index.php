@@ -33,5 +33,3 @@ if ( is_singular() ) {
 		get_template_part( 'template-parts/404' );
 	}
 }
-
-<?php get_footer(); ?>
