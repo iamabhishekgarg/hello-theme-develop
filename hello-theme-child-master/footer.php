@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'footer' ) ) {
 	if ( hello_elementor_display_header_footer() ) {
 		if ( did_action( 'elementor/loaded' ) && hello_header_footer_experiment_active() ) {
-			get_template_part( 'template-parts/dynamic-footer' );
+			get_template_part( 'inc/dynamic-footer' );
 		} else {
-			get_template_part( 'template-parts/footer' );
+			get_template_part( 'inc/footer' );
 		}
 	}
 }
